@@ -4,12 +4,13 @@
 
 /*header*/
 header{
-    background-color: #020659;
-    color: #F2F2F2;
+    background-color: #98082c;
+    color: white;
     text-align: center;
     font-size: 55pt;
     font-family: 'Share Tech', sans-serif;
 }
+
 /*index*/
 body{
     background-color: white;
@@ -24,8 +25,7 @@ body{
     font-family: 'Share Tech', sans-serif;
     text-align: center;
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 10px auto 10px auto;
 }
 .nomedispositivo{
     font-size: 20px;
@@ -35,21 +35,18 @@ body{
 	font-size: 10pt}
 h3{color: green;}
 
-footer{
-    background-color: lightblue;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Share Tech', sans-serif;
-}
-
 /*produto01*/
 .imagens{
     font-family: 'Share Tech', sans-serif;
     float: left;
+    align-items: center;
+    width: auto;
+    height: auto;
 }
 .compre-aqui{
     font-family: 'Share Tech', sans-serif;
     float: left;
+    align-items: center;
 }
 .comprar{
     text-align: center;
@@ -60,4 +57,13 @@ footer{
     border-radius: 50px;
     width: 30%;
     cursor: pointer;
+}
+
+/*footer*/
+footer{
+    background-color: #98082c;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Share Tech', sans-serif;
 }
