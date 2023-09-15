@@ -18,6 +18,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 /*products*/
 .produto{
     font-family: 'Share Tech', sans-serif;
@@ -45,14 +46,10 @@ footer{
 .imagens{
     font-family: 'Share Tech', sans-serif;
     float: left;
-    width: fit-content;
-    height: 50%;
 }
 .compre-aqui{
     font-family: 'Share Tech', sans-serif;
     float: left;
-    width: 50%;
-    height: 50%;
 }
 .comprar{
     text-align: center;
