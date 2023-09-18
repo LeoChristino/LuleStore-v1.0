@@ -15,7 +15,7 @@ header{
 #produtos{
     max-width: 900px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 3%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -34,8 +34,15 @@ header{
     max-width: 100%;
 }
 .produto h2{
+    color: #333;
     font-family: 'Share Tech', sans-serif;
-
+    font-size: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
 }
 .price{
     font-family: 'Share Tech', sans-serif;
@@ -51,20 +58,22 @@ header{
         width: 100%;
         margin-right: 0;
     }
+    #buy-page{
+        display: block !important ;
+    }
 }
 
 /*produto01*/
-.imagens{
-    font-family: 'Share Tech', sans-serif;
-    float: left;
-    align-items: center;
-    width: auto;
-    height: auto;
+#buy-page{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 2%;
 }
-.compre-aqui{
+#buy-page img{
+    width: 100%;
+}
+.buy-area{
     font-family: 'Share Tech', sans-serif;
-    float: left;
-    align-items: center;
 }
 .comprar{
     font-family: 'Share Tech', sans-serif;
